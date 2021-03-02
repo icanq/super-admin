@@ -6,45 +6,45 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import HeaderStats from '../components/headers/HeaderStats'
 
 // dashboard
-import Dashboard from "../views/admin/dashboard/Dashboard";
+import Dashboard from "../views/superadmin/dashboard/Dashboard";
 
 // pengeluaran
-import Pengeluaran from "../views/admin/pengeluaran/Pengeluaran";
+import Pengeluaran from "../views/superadmin/pengeluaran/Pengeluaran";
 
 // absensi
-import Absensi from "../views/admin/absensi/Absensi";
+import Absensi from "../views/superadmin/absensi/Absensi";
 
 // notifikasi
-import Notifikasi from "../views/admin/notifikasi/Notifikasi";
+import Notifikasi from "../views/superadmin/notifikasi/Notifikasi";
 
 // laporan
-import Laporan from "../views/admin/laporan/Laporan";
+import Laporan from "../views/superadmin/laporan/Laporan";
 
 // driver
-import Driver from "../views/admin/driver/Driver";
-import DriverText from '../views/admin/driver/driverComponent/driverTableComponent/DriverText'
-import DriverMessage from '../views/admin/driver/driverComponent/driverTableComponent/DriverMessage'
+import Driver from "../views/superadmin/driver/Driver";
+import DriverText from '../views/superadmin/driver/driverComponent/driverTableComponent/DriverText'
+import DriverMessage from '../views/superadmin/driver/driverComponent/driverTableComponent/DriverMessage'
 
 // pic
-import Pic from "../views/admin/pic/Pic";
-import PicText from "../views/admin/pic/picComponent/picTableComponent/PicText";
-import PicMessage from "../views/admin/pic/picComponent/picTableComponent/PicMessage";
+import Pic from "../views/superadmin/pic/Pic";
+import PicText from "../views/superadmin/pic/picComponent/picTableComponent/PicText";
+import PicMessage from "../views/superadmin/pic/picComponent/picTableComponent/PicMessage";
 
 // superpic
-import Superpic from "../views/admin/superpic/Superpic";
-import SuperpicText from "../views/admin/superpic/superpicComponent/superPicTableComponent/SuperPicText";
-import SuperpicMessage from "../views/admin/superpic/superpicComponent/superPicTableComponent/SuperPicMessage";
+import Superpic from "../views/superadmin/superpic/Superpic";
+import SuperpicText from "../views/superadmin/superpic/superpicComponent/superPicTableComponent/SuperPicText";
+import SuperpicMessage from "../views/superadmin/superpic/superpicComponent/superPicTableComponent/SuperPicMessage";
 
 // admin
-import Admin from "../views/admin/admin/Admin";
+import Admin from "../views/superadmin/admin/Admin";
 
 // super admin
-import SuperAdmin from "../views/admin/superAdmin/SuperAdmin";
+import SuperAdmin from "../views/superadmin/superAdmin/SuperAdmin";
 
 // profile
-import Profile from "../views/admin/profile/Profile";
-import OldPassword from "../views/admin/profile/profileComponents/profileSubCard/OldPassword";
-import NewPassword from "../views/admin/profile/profileComponents/profileSubCard/NewPassword";
+import Profile from "../views/superadmin/profile/Profile";
+import OldPassword from "../views/superadmin/profile/profileComponents/profileSubCard/OldPassword";
+import NewPassword from "../views/superadmin/profile/profileComponents/profileSubCard/NewPassword";
 
 
 export default function AdminLayout() {

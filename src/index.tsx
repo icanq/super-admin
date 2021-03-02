@@ -12,9 +12,9 @@ import AdminLayout from './layout/AdminLayout';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/admin" component={AdminLayout} />
+      <Route path="/superadmin" component={AdminLayout} />
       {/* <Route path="/auth" component={Auth} /> */}
-      <Redirect from="*" to="/admin/dashboard" />
+      <Redirect from="*" to="/superadmin/dashboard" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
