@@ -4,7 +4,7 @@ export default function DashboardCard() {
     return (
         <div className="mx-2.5 my-1">
             <div className=" bg-gray-100">
-                <img className="h-72 w-full mx-auto" src="https://cdn.discordapp.com/attachments/798894344962441267/813319536571973682/0001.jpg" alt="" />
+                <img className="h-50 w-full mx-auto" src="https://cdn.discordapp.com/attachments/798894344962441267/813319536571973682/0001.jpg" alt="" />
             </div>
 
             <h1 className="text-2xl my-4 font-semibold">Informasi</h1>
